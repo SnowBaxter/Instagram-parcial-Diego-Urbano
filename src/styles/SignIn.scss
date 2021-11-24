@@ -1,0 +1,113 @@
+@import "./variables";
+
+
+.ContainerLogin {
+    display:flex;
+    position: fixed;
+    margin: 3% 30% 0% 30%;
+
+    .SignIMG {
+      position:relative;
+    }
+
+  .ABox{
+    margin: 20% 0% 0% 0%;
+    width: 350px;
+    align-content: center;
+    justify-content: space-between;
+    border: 1px solid $border-color-grey;
+    height: 450px;
+    
+          
+    .logo{
+     width: 60%;
+     position: flex;
+    display: flex;
+    padding:50px;
+    margin: 0% 0% 0% 5%;
+    align-content: center;
+    justify-content: space-between;
+    }
+    .LoginText1{
+      font-size: 80%;
+      padding:4%;
+      border: 1px solid $border-color-grey;
+      border-radius: 3px;
+      background-color: $background-grey;
+      margin: 0% 0% 5% 8%;
+      width: 220px;
+      display: flex;
+      align-items: center;
+    }
+    .LoginText2{
+      font-size: 80%;
+      padding:4%;
+      border: 1px solid $border-color-grey;
+      border-radius: 3px;
+      background-color: $background-grey;
+      margin: 0% 0% 0% 8%;
+      width: 220px;
+      display: flex;
+      align-items: center;
+    }
+    .LoginText3{     
+      align-items: center;
+      text-align: center;
+      padding:2%;
+     border: 1px solid $border-color-grey;
+      border-radius: 3px;
+      background-color: $background-grey;
+      width: 150px;
+      display: flex;
+      margin: 8% 0% 0% 25%;
+      text-align: center;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .LoginText4{     
+      font-size: 80%;
+      padding:1%;
+      border-radius: 3px;
+      margin: 5% 0% 0% 25%;
+      width: 220px;
+      display: flex;
+      align-items: center;
+      &:hover {
+        cursor: pointer;
+      }
+      
+    }
+    .ContinuarConGoogle{
+      padding: 2%;;
+     border: 1px solid $border-color-grey;
+      border-radius: 3px;
+      background-color: $background-grey;
+      width: 150px;
+      display: flex;
+      margin: 8% 0% 0% 25%;
+      align-items: center;
+      text-align: center;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+}
+ 
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .SignIMG {
+      display: none !important;
+    }
+    .ContainerLogin{
+      margin: 10% 10% 0% 10%;
+    }
+  }
+
+
